@@ -1,6 +1,8 @@
-const ShopItemFunc = ( {item} ) => {
-    const { brand, title, description, descriptionFull, price, currency } = item;
-  
+import { Component } from 'react'
+
+export default class ShopItemClass extends Component {
+  render() {
+    const { brand, title, description, descriptionFull, price, currency } = this.props.item;
     return (
       <div className="main-content">
         <h2>{brand}</h2>
@@ -18,5 +20,4 @@ const ShopItemFunc = ( {item} ) => {
       </div>
     )
   }
-  
-  export default ShopItemFunc;
+}
