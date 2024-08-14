@@ -1,5 +1,5 @@
 import './App.css';
-import ShopItemClass from './components/shopItemFunc/components/shopItemFunc/ShopItemClass/ShopItemClass';
+import ShopItemClass from './components/shopItemFunc/ShopItemFunc';
 
 function App() {
 
